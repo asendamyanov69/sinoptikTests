@@ -1,0 +1,19 @@
+{
+  "name": "dinamotask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.js' --timeout 10000",
+    "test-debug": "mocha --debug 'test/**/*.js' --timeout 10000"
+  },
+  "mocha": {
+    "timeout": 50000
+  },
+  "author": "Asen Damyanov",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "selenium-webdriver": "^4.20.0",
+    "mocha": "10.4.0"
+  }
+}
